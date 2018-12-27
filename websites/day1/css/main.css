@@ -1,0 +1,416 @@
+:root {
+  --font-size-section-p: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 10%;
+  padding-top: 3rem;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 3px;
+  /* display: inline-block; */
+}
+
+/* TITLE */
+
+.title-section {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-section h1 {
+  font-size: 30px;
+}
+
+.title-section hr {
+  width: 80px;
+  height: 3px;
+  margin: 15px auto;
+  border: none;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card .card-item {
+  width: 200px;
+  margin: 15px 13px;
+}
+
+.card img {
+  height: 125px;
+}
+
+.card-job {
+  margin-top: 5px;
+  color: #48c1e9;
+}
+
+.card .card-title {
+  font-weight: 600;
+  margin: 30px 0 0 0;
+  text-transform: uppercase;
+}
+
+.card .card-description {
+  margin: 15px 20px;
+}
+
+/* HEADER */
+header {
+  color: #fff;
+  background-color: #87509c;
+  min-height: 500px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 9.5px;
+  padding: 10px 12px;
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+header nav ul li a:hover {
+  background-color: #643a79;
+}
+
+.content-header {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.content-header h1 {
+  margin-bottom: 6rem;
+}
+
+.content-header a {
+  background-color: #eb7d4b;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0px 3px 1px 0px #ca6b40;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+/* SERVICES */
+
+#services {
+  background-color: #17c2a4;
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#services h1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#services hr {
+  width: 80px;
+  height: 3px;
+  margin: 15px auto;
+  color: #12a289;
+  background-color: #12a289;
+  border: none;
+}
+
+#services .title-section p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#services p {
+  font-size: var(--font-size-section-p);
+}
+
+/* TEAM */
+
+#team {
+  color: #3c4761;
+  background-color: #e7f1f8;
+  min-height: 100vh;
+}
+
+#team hr {
+  background-color: #c7d9e5;
+}
+
+#team .title-section p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#team p {
+  font-size: var(--font-size-section-p);
+}
+
+/* PORTIFOLIO */
+
+#portifolio {
+  background-color: #f0d090;
+  color: #393939;
+  min-height: 100vh;
+  font-size: var(--font-size-section-p);
+}
+
+#portifolio hr {
+  background-color: #d9b979;
+}
+
+#portifolio .title-section p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#portifolio .search-protifolio {
+  width: 300px;
+  margin: 20px auto;
+}
+
+#portifolio .search-protifolio ul {
+  display: flex;
+
+  justify-content: center;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+#portifolio .search-protifolio ul li {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #000;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 8%;
+}
+
+#portifolio .search-protifolio ul li a {
+  display: block;
+  text-decoration: none;
+  color: #393939;
+  padding-bottom: 10px;
+}
+
+#portifolio .search-protifolio ul li:hover {
+  background-color: #fff;
+}
+
+#portifolio .card .card-item {
+  width: 400px;
+  margin: 15px 13px;
+}
+
+#portifolio .card img {
+  height: 100%;
+  width: 100%;
+}
+
+/* CONTACTS */
+#contacts {
+  background-color: #3c5499;
+  color: #fff;
+  font-size: var(--font-size-section-p);
+}
+
+#contacts form {
+  min-height: 300px;
+  color: #12a289;
+}
+
+#contacts form input {
+  background-color: #273a71;
+  border: none;
+  width: 47%;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+#contacts form input:nth-child(1) {
+  margin-right: 5.5%;
+}
+
+#contacts form textarea {
+  background-color: #273a71;
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#contacts .links {
+  position: relative;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+  background-color: #344b8e;
+  height: 80px;
+}
+
+#contacts .links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#contacts .links ul li {
+  margin: 0 10px;
+}
+
+#contacts .links ul li a {
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  line-height: 80px;
+}
+
+#contacts .btn-submit {
+  display: block;
+  margin: 25px auto;
+  box-shadow: 0px 3px 1px 0px #299fc6;
+  background-color: #2dadd7;
+  cursor: pointer;
+}
+
+/* MEDIAS SIZES */
+@media (max-width: 680px) {
+  .container {
+    margin: auto;
+  }
+
+  header nav {
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .brand-nav {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  #services .title-section p,
+  #team .title-section p,
+  #portifolio .title-section p {
+    width: 90%;
+  }
+  #contacts form {
+    margin: 0 30px;
+  }
+
+  #contacts .links ul li {
+    margin: 0 3px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #contacts form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #contacts form input {
+    width: 100%;
+  }
+}
+
+/* PLACEHOLDER */
+
+#contacts form input {
+  color: #fff;
+  font-size: 15px;
+}
+
+#contacts form textarea {
+  color: #fff;
+  font-size: 15px;
+}
+
+#contacts form input::-webkit-input-placeholder {
+  color: #fff;
+  text-indent: 20px;
+  letter-spacing: 0.3px;
+}
+
+input::-webkit-input-placeholder:after {
+  color: red;
+  content: " *";
+}
+
+#contacts form textarea::-webkit-input-placeholder {
+  color: #fff;
+  text-indent: 20px;
+  letter-spacing: 0.3px;
+  line-height: 40px;
+}
+
+#contacts form input::placeholder {
+  color: #fff;
+  text-indent: 20px;
+  letter-spacing: 0.3px;
+}
+
+input::-moz-placeholder::after {
+  color: red;
+  content: " *";
+}
+
+input::placeholder::after {
+  color: red;
+  content: " *";
+}
+
+#contacts form textarea::-webkit-input-placeholder {
+  color: #fff;
+  text-indent: 20px;
+  letter-spacing: 0.3px;
+  line-height: 40px;
+}
